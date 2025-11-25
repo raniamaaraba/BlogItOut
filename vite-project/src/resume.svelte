@@ -16,7 +16,7 @@
       </button>
     </div>
     <div class="resume-download">
-      <a href="/assets/Maaraba_Rania_Resume_2025.pdf" download>
+      <a href="/assets/Maaraba_Rania_Resume_2025_12.pdf" download>
         {lang === 'ENG' ? '↓ Download Most Recent Resume' : '↓ 履歴書をダウンロード'}
       </a>
     </div>
@@ -65,7 +65,7 @@
       {lang === 'ENG' ? 'Feb 2025 – Present' : '2025年2月から原稿まで'}
     </p>
     <ul>
-      <li>{lang === 'ENG' ? "With the assignment of a Software Engineer at McDonald's, I am developing skills in professional development, leadership, other like topics." : 'マックのソフトウェア工学者と玄人の発展とか、指導とか作っていらしゃいます。'}</li>
+      <li>{lang === 'ENG' ? "With the assignment of a Software Engineer at McDonald's, I am developing skills in professional development, leadership, other similar topics." : 'マックのソフトウェア工学者と玄人の発展とか、指導とか作っていらしゃいます。'}</li>
       <li>{lang === 'ENG' ? 'Frequent practice in technical interviews as well as project deliverables to a non-tech related audience.' : '技術的な面接を練習し、アナログ人間にプロジェクトの成果物をお作りなります。'}</li>
     </ul>
   </div>
@@ -168,45 +168,15 @@
   <div class="resume-item">
     <h3>
       {lang === 'ENG'
-        ? "Univeristy of Cincinnati Rocketry — Boosted Dart Avionics Development"
-        : '航空宇宙システムプロジェクト — フライト制御ソフトウェア開発'}
-    </h3>
-    <p class="date">
-      {lang === 'ENG' ? 'May 2024 – Aug 2024' : '2024年5月〜2024年8月'}
-    </p>
-    <ul>
-      <li>{lang === 'ENG' ? 'Developed embedded C++ modules for flight control.' : 'フライト制御用の組込みC++モジュールを開発。'}</li>
-      <li>{lang === 'ENG' ? 'Collaborated with aerospace engineers on safety systems.' : '航空宇宙エンジニアと安全システムで協力。'}</li>
-    </ul>
-  </div>
-
-  <div class="resume-item">
-    <h3>
-      {lang === 'ENG'
         ? 'National Association of Rocketry Level 2 Certification — NAR L2 Rocket Build & Avionics'
         : 'Web開発 — Svelte/Tailwindを用いたレスポンシブアプリケーション'}
     </h3>
     <p class="date">
-      {lang === 'ENG' ? 'Jan 2025 – Present' : '2025年1月〜現在'}
+      {lang === 'ENG' ? 'Sept 2025 – Present' : '2025年1月〜現在'}
     </p>
     <ul>
-      <li>{lang === 'ENG' ? 'Built bilingual portfolio site with ENG/日本語 toggle.' : 'ENG/日本語切替付きポートフォリオサイトを構築。'}</li>
-      <li>{lang === 'ENG' ? 'Designed branded layouts with TailwindCSS.' : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
-    </ul>
-  </div>
-
-  <div class="resume-item">
-    <h3>
-      {lang === 'ENG'
-        ? 'Svelte Portfolio through User Interfaces Course'
-        : 'Web開発 — Svelte/Tailwindを用いたレスポンシブアプリケーション'}
-    </h3>
-    <p class="date">
-      {lang === 'ENG' ? 'Jan 2025 – Present' : '2025年1月〜現在'}
-    </p>
-    <ul>
-      <li>{lang === 'ENG' ? 'Built bilingual portfolio site with ENG/日本語 toggle.' : 'ENG/日本語切替付きポートフォリオサイトを構築。'}</li>
-      <li>{lang === 'ENG' ? 'Designed branded layouts with TailwindCSS.' : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
+      <li>{lang === 'ENG' ? 'Building a L2 certifible rocket through UCRO and NAR to achieve Level 2 certificiation' : 'ENG/日本語切替付きポートフォリオサイトを構築。'}</li>
+      <li>{lang === 'ENG' ? 'Designed a completley custom 3D printed avionics bay using Fusion260' : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
     </ul>
   </div>
 
@@ -217,11 +187,41 @@
         : 'Web開発 — Svelte/Tailwindを用いたレスポンシブアプリケーション'}
     </h3>
     <p class="date">
-      {lang === 'ENG' ? 'Jan 2025 – Present' : '2025年1月〜現在'}
+      {lang === 'ENG' ? 'June 2024 – Present' : '2025年1月〜現在'}
     </p>
     <ul>
-      <li>{lang === 'ENG' ? 'Built bilingual portfolio site with ENG/日本語 toggle.' : 'ENG/日本語切替付きポートフォリオサイトを構築。'}</li>
-      <li>{lang === 'ENG' ? 'Designed branded layouts with TailwindCSS.' : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
+      <li>{lang === 'ENG' ? 'Local app designed to allow users to be able to easily access and learn new Kanji on the go' : 'ENG/日本語切替付きポートフォリオサイトを構築。'}</li>
+      <li>{lang === 'ENG' ? 'Developing in JavaScript with React and Postgres' : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
+    </ul>
+  </div>
+
+  <div class="resume-item">
+    <h3>
+      {lang === 'ENG'
+        ? "Univeristy of Cincinnati Rocketry — Boosted Dart Avionics Development"
+        : '航空宇宙システムプロジェクト — フライト制御ソフトウェア開発'}
+    </h3>
+    <p class="date">
+      {lang === 'ENG' ? 'Sept 2025 – December 2025' : '2024年5月〜2024年8月'}
+    </p>
+    <ul>
+      <li>{lang === 'ENG' ? 'Developed embedded C++ modules for flight control and logging' : 'フライト制御用の組込みC++モジュールを開発。'}</li>
+      <li>{lang === 'ENG' ? "Collaborated with structures team to ensure the avionics bay's compatibility with the boosted dart" : '航空宇宙エンジニアと安全システムで協力。'}</li>
+    </ul>
+  </div>
+
+  <div class="resume-item">
+    <h3>
+      {lang === 'ENG'
+        ? 'Svelte Portfolio through User Interfaces Course'
+        : 'Web開発 — Svelte/Tailwindを用いたレスポンシブアプリケーション'}
+    </h3>
+    <p class="date">
+      {lang === 'ENG' ? 'Aug 2025 – December 2025' : '2025年1月〜現在'}
+    </p>
+    <ul>
+      <li>{lang === 'ENG' ? 'Developed several user interface projects with Svelte' : 'ENG/日本語切替付きポートフォリオサイトを構築。'}</li>
+      <li>{lang === 'ENG' ? 'Created projects allowing users to journal, pick out outfits based on compatibility, re-designed a Univeristy of Cincinnati page, as well as created an interface to help users learn alternative medicines' : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
     </ul>
   </div>
 
@@ -235,8 +235,8 @@
       {lang === 'ENG' ? 'Jan 2025 – Present' : '2025年1月〜現在'}
     </p>
     <ul>
-      <li>{lang === 'ENG' ? 'Built bilingual portfolio site with ENG/日本語 toggle.' : 'ENG/日本語切替付きポートフォリオサイトを構築。'}</li>
-      <li>{lang === 'ENG' ? 'Designed branded layouts with TailwindCSS.' : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
+      <li>{lang === 'ENG' ? 'Built a custom L2 rocket with avionics bay to launch over Lake Michigan to read the sublimation rate of Dry Ice as the rocekt reaches apogee' : 'ENG/日本語切替付きポートフォリオサイトを構築。'}</li>
+      <li>{lang === 'ENG' ? 'Developed by hand the electronics board, programming, and saudering ' : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
     </ul>
   </div>
 
@@ -247,11 +247,11 @@
         : 'Web開発 — Svelte/Tailwindを用いたレスポンシブアプリケーション'}
     </h3>
     <p class="date">
-      {lang === 'ENG' ? 'Jan 2025 – Present' : '2025年1月〜現在'}
+      {lang === 'ENG' ? 'Aug 2021 – Nov 2021' : '2025年1月〜現在'}
     </p>
     <ul>
-      <li>{lang === 'ENG' ? 'Built bilingual portfolio site with ENG/日本語 toggle.' : 'ENG/日本語切替付きポートフォリオサイトを構築。'}</li>
-      <li>{lang === 'ENG' ? 'Designed branded layouts with TailwindCSS.' : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
+      <li>{lang === 'ENG' ? 'Created a fiber-glass rocket and had a sucessful launch leading to my NAR Jr Level 1 Certification ' : 'ENG/日本語切替付きポートフォリオサイトを構築。'}</li>
+      <li>{lang === 'ENG' ? 'Developed and designed the rocket from start to finish, learning the intricates of working with fiberglass and carbon fiber' : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
     </ul>
   </div>
 </section>

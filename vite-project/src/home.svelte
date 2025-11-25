@@ -30,7 +30,7 @@
     <!-- Polaroid photo -->
     <div class="polaroid">
       <img src={img} alt="Rania Maaraba" />
-      <p class="caption">Hey, it’s me!</p>
+      <p class="caption">Graduating Class of 2027 with B.S. in Computer Science and Certificate in Japanese Language and Culture from the University of Cincinnati</p>
     </div>
 
     <section class="scrapbook-grid">

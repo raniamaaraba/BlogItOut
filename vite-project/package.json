@@ -14,5 +14,8 @@
     "postinstall-postinstall": "^2.1.0",
     "svelte": "^5.28.1",
     "vite": "^6.3.5"
+  },
+  "dependencies": {
+    "prismjs": "^1.30.0"
   }
 }
