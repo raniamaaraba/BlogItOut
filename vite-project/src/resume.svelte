@@ -41,7 +41,7 @@
         <div class="resume-item">
             <h3>
             {lang === 'ENG'
-                ? 'University of Cincinnati — B.S. Computer Science, Minor in Japanese Culture'
+                ? 'University of Cincinnati — B.S. Computer Science, Minor in Japanese Culture & Language'
           : 'シンシナティ大学の学士のコンピュータ科学、日本の文化の副専攻'}
             </h3>
             <p class="date">
@@ -65,8 +65,8 @@
       {lang === 'ENG' ? 'Feb 2025 – Present' : '2025年2月から原稿まで'}
     </p>
     <ul>
-      <li>{lang === 'ENG' ? "With the assignment of a Software Engineer at McDonald's, I am developing skills in professional development, leadership, other similar topics." : 'マックのソフトウェア工学者と玄人の発展とか、指導とか作っていらしゃいます。'}</li>
-      <li>{lang === 'ENG' ? 'Frequent practice in technical interviews as well as project deliverables to a non-tech related audience.' : '技術的な面接を練習し、アナログ人間にプロジェクトの成果物をお作りなります。'}</li>
+      <li>{lang === 'ENG' ? "With the assignment of a Software Engineer at McDonald's, I am developing skills in professional development, career-oriented projects, tactics, real-world problems, and personal development skills" : 'マックのソフトウェア工学者と玄人の発展とか、指導とか作っていらしゃいます。'}</li>
+      <li>{lang === 'ENG' ? 'Frequent practice in technical interviews as well as project deliverables to a non-tech related audience. Participated in-person with their Global Women in Technology Program highlighting the authenticity and knowledge of leadership roles in their cooperate careers' : '技術的な面接を練習し、アナログ人間にプロジェクトの成果物をお作りなります。'}</li>
     </ul>
   </div>
 
@@ -81,7 +81,7 @@
     </p>
     <ul>
       <li>{lang === 'ENG' ? 'Developed code in C/AL with Microsoft Dynamics NAV which primarily included coding projects for creating better quality of life for floor workers as well as developing and utilising Microsoft Report Builder.' : 'マイクロソフト•ダイナミックス•ナブでC/ALコードを蓄えし、'}</li>
-      <li>{lang === 'ENG' ? 'Collaborated with many departments across the company from Marketing to Logistics to Finance' : '航空宇宙エンジニアと安全システムで協力。'}</li>
+      <li>{lang === 'ENG' ? 'Collaborated with many departments across the company from Marketing to Logistics to Finance. Was able to develop over 45 quality of life and other project improvements to the system while working alongside other interns.' : '航空宇宙エンジニアと安全システムで協力。'}</li>
     </ul>
 
     <div class="resume-item">
@@ -95,7 +95,7 @@
     </p>
     <ul>
       <li>{lang === 'ENG' ? "A school-based chain that worked on K-8 coding skills by game development. Helped instruct programming learning primarlly in JavaScript to help bring a student's game idea to life." : 'ENG/日本語切替付きポートフォリオサイトを構築。'}</li>
-      <li>{lang === 'ENG' ? "Lead weekend 'clubs' in development of Java for creating Minecraft mods as well as Lua for Roblox games. " : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
+      <li>{lang === 'ENG' ? "Lead weekend 'clubs' in development of Java for creating Minecraft mods as well as Lua for Roblox games. Cultivated personal programming and engineering skills by designing and developing custom coding exercises projects for students to help promote expression and education. " : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
     </ul>
   </div>
   
@@ -120,8 +120,8 @@
       {lang === 'ENG' ? 'Boosted Dart Avionics Coder | 2025 Mentorship Program Mentee' : '2024年5月〜2024年8月'}
     </p>
     <ul>
-      <li>{lang === 'ENG' ? 'Developed embedded C++ modules for flight control fitted for a boosted dart on a collaberative level' : 'フライト制御用の組込みC++モジュールを開発。'}</li>
-      <li>{lang === 'ENG' ? "Selected as a mentee to develop my NAR L2 certifiable rocket under the current club's President" : '航空宇宙エンジニアと安全システムで協力。'}</li>
+      <li>{lang === 'ENG' ? 'Developed embedded C++ modules for flight control fitted for a boosted dart on a collaberative level. Created code for projects that require dual deployment systems as well as experiments to run within the launch window' : 'フライト制御用の組込みC++モジュールを開発。'}</li>
+      <li>{lang === 'ENG' ? "Selected as a mentee to develop my NAR L2 certifiable rocket under the current club's President who is in addition Level 2 Certified. Developing several skills from intial structures and development of the rocket to 3D modeling skills with Fusion360" : '航空宇宙エンジニアと安全システムで協力。'}</li>
     </ul>
   </div>
 
@@ -138,8 +138,8 @@
       {lang === 'ENG' ? 'Member and Volunteer' : '2024年5月〜2024年8月'}
     </p>
     <ul>
-      <li>{lang === 'ENG' ? 'Promoting conversations across the spectrum as well as educating young College Americans on current affairs and the Word of the Lord' : 'ENG/日本語切替付きポートフォリオサイトを構築。'}</li>
-      <li>{lang === 'ENG' ? 'Helping lead and organise events to protect high-level political figures as well as inform the community of such events' : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
+      <li>{lang === 'ENG' ? 'Promoting conversations across the spectrum as well as educating young College Americans on current affairs and the Word of the Lord.' : 'ENG/日本語切替付きポートフォリオサイトを構築。'}</li>
+      <li>{lang === 'ENG' ? 'Helping lead and organise events to protect high-level political figures as well as inform the community of such events. Fortunate to be able to host Vivek Ramaswamy and Riley Gaines. ' : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
     </ul>
   </div>
 
@@ -153,11 +153,11 @@
       {lang === 'ENG' ? '2023 – 2024' : '2025年1月〜現在'}
     </p>
     <p class="postions">
-      {lang === 'ENG' ? 'Violin Member' : '2024年5月〜2024年8月'}
+      {lang === 'ENG' ? 'Violinist' : '2024年5月〜2024年8月'}
     </p>
     <ul>
       <li>{lang === 'ENG' ? 'Performed and rehered throughout the school year to perform with a professional sound rivaling many of the starting Orchestras in the Conservatory of Music at the University of Cincinnati' : 'ENG/日本語切替付きポートフォリオサイトを構築。'}</li>
-      <li>{lang === 'ENG' ? 'Enforced strict discipline to keep up a high level of study as well as performing and practicing professional-level pieces' : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
+      <li>{lang === 'ENG' ? "Enforced strict discipline to keep up a high level of study as well as performing and practicing professional-level pieces such as Rossini's Barber of Seville, Bizet Carmen, and Rachmaninoff's Piano Concerto No. 2." : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
     </ul>
   </div>
 </section>
@@ -175,8 +175,8 @@
       {lang === 'ENG' ? 'Sept 2025 – Present' : '2025年1月〜現在'}
     </p>
     <ul>
-      <li>{lang === 'ENG' ? 'Building a L2 certifible rocket through UCRO and NAR to achieve Level 2 certificiation' : 'ENG/日本語切替付きポートフォリオサイトを構築。'}</li>
-      <li>{lang === 'ENG' ? 'Designed a completley custom 3D printed avionics bay using Fusion260' : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
+      <li>{lang === 'ENG' ? 'Building a L2 certifible rocket through UCRO and NAR to achieve Level 2 certificiation with a diameter of 4in. Developed using Open Rocket with two parachutes that achieved an apogee of 5,000ft' : 'ENG/日本語切替付きポートフォリオサイトを構築。'}</li>
+      <li>{lang === 'ENG' ? 'Designed a completley custom 3D printed avionics bay using Fusion360 with a custom flight computer' : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
     </ul>
   </div>
 
@@ -191,7 +191,7 @@
     </p>
     <ul>
       <li>{lang === 'ENG' ? 'Local app designed to allow users to be able to easily access and learn new Kanji on the go' : 'ENG/日本語切替付きポートフォリオサイトを構築。'}</li>
-      <li>{lang === 'ENG' ? 'Developing in JavaScript with React and Postgres' : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
+      <li>{lang === 'ENG' ? 'Developing in JavaScript with React and Postgres with backend integration' : 'TailwindCSSでブランド化されたレイアウトを設計。'}</li>
     </ul>
   </div>
 

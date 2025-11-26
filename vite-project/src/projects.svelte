@@ -14,14 +14,26 @@
   import img1e from './assets/hartydarty/DSC06786.jpg';
   import img1f from './assets/hartydarty/DSC06795.jpg';
   import img1g from './assets/hartydarty/DSC06829.jpg';
+  import img1h from './assets/hartydarty/IMG_2183.jpeg';
 
   import img2a from './assets/l2/cad.png';
   import img2b from './assets/l2/fails.jpg';
   import img2c from './assets/l2/IMG_1875.jpeg';
   import img2d from './assets/l2/openrocket.png';
+  import img2e from './assets/l2/IMG_1789.jpeg';
 
   import thumb3 from './assets/r.jpeg';
   import img3a from './assets/IMG_2259.jpeg';
+
+  import thumb4 from './assets/ui/IMG_0563.jpeg';
+  import img4a from './assets/ui/cal.png';
+  import img4b from './assets/ui/chopin.png';
+  import img4c from './assets/ui/dash.png';
+  import img4d from './assets/ui/finances.png';
+  import img4e from './assets/ui/match.png';
+  import img4f from './assets/ui/quiz.png';
+  import img4g from './assets/ui/schedule.png';
+  import img4h from './assets/ui/wardrobe.png';
 
   // add more imports as needed
 
@@ -31,29 +43,32 @@
   let projects = [
     {
       id: 1,
-      title: "Flight Control System",
+      title: "Avionics Flight System",
       role: "Avionics Team Member - Developer",
       date: "Sept 2025 – Dec 2025",
       tags: ["Aerospace", "Embedded Systems", "C++", "Avionics", "Rocketry"],
       tech: ["C++", "PlatformIO", "Git"],
       preview: "Avionics development for the Univeristy of Cincinnati's Rocketry Club's Boosted Dart",
       content: [
-        "Developed along side colleagues Loring Teuteuberg and Jesse Dominguez (Avionics Lead) to create custom code for the avionics bay utilising PlatformIO in VSC with Adafruit LSM6DS, barometer MS5611 SPI on a Seeed ESP32S3.",
+        "Developed along side colleagues Loring Teuteuberg and Jesse Dominguez (Avionics Lead) to create custom code for the avionics bay utilising PlatformIO in Visual Studio Code using C++.",
         "Main responsibilities included designing the control architecture, implementing sensor filtering and logging, and developing clean code for reusability",
-        "Harty Darty was a large group effor by UCRO to create a boosted dart with Mach 1 capabilities. The goals of the avionics team was to create a fully custom avionics as well as an additional fall-back bay using the Blue Raven developed by Featherweight Altimiters. Harty Darty had a semi-sucessful launch on November 23nd with a delayed separation stage (it is important to know ths is a boosted dart, so the second stage did not contain a motor and was purily thrusted by the intial thrust and drag separation). ",
+        "Components included the Adafruit LSM6DSO32 IMU for gyroscope data and as an accelerometer. This was then recorded in G's across all axes and angular velocity in degrees per second, to allow for the analysis of thrust, stability, and stage changes. MS5611 Barometer was used to temperature and pressure. From pressure readings, we could then calculate altitude both to sea level and to the launch site in Dayton, pinpointing apogee and descent. The ESP32 Microcontroller acted as the whole brain of the operation, running flight detection logic, managing data storage, and hosting a local server we could manage for continuity.",
+        "Harty Darty was a large group effort by UCRO to create a boosted dart with Mach 1 capabilities. The goals of the avionics team was to create a fully custom avionics as well as an additional fall-back bay using the Blue Raven developed by Featherweight Altimiters. Harty Darty had a semi-sucessful launch on November 23nd with a delayed separation stage (it is important to know ths is a boosted dart, so the second stage did not contain a motor and was purily thrusted by the intial thrust and drag separation). ",
         "Being the second avionics project I've had the opportunity to work on, it was very rewarding to see the final project yet very difficult encoutering unknown waters. Majority of my projects have been local apps and website so encorperating hardware was pretty much entierly new to me as well as understanding fundamentals of electroncis and enacted forces. I have learned a lot more about hardware and software development incoorperation, CAD, wiring, working with a team for the greater good."
       ],
       bullets: [
         "Created a localhost through the Seeeed to allow the retrival of flight-logged data in a txt file",
         "Integrated IMU and barometer data with Kalman filtering",
-        "Helped develop check tests to ensure continuity"
+        "Helped develop check tests to ensure continuity",
+        "Worked on senor integration, learning how to configure and read from the barometer and IMU",
+        "Learned how to work on real-time connectivity with the localsever on the ESP",
+        "Applied physics concepts learned in the classroom consisting of converting raw sensor data into g‑forces, angular velocity, and altitude using barometric formulas"
       ],
       links: [
         { label: "GitHub repo", href: "https://github.com/raniamaaraba/HardyDarty", external: true },
-        { label: "Video comming soon!", href: "https://youtu.be/your-demo", external: true }
       ],
       thumb: thumb1,
-      images: [ img1g, img1a, img1b, thumb1, img1c, img1d, img1e, img1f],
+      images: [ img1g, img1a, img1b, thumb1, img1c, img1d, img1e, img1f, img1h],
     },
 
     {
@@ -65,9 +80,9 @@
       tech: ["Fusion360", "Open Rocket"],
       preview: "Creating my Level 2 certification rocket",
       content: [
-        "Under mentorship of Landry Danielson, current Level 2 Tripoli and UCRO President, I set a goal to gain my Level 2 certification to gain a deeper knowledge of high powered rocketry as well as avionics development and aerospace community.",
+        "Under mentorship of Landry Danielson, current Level 2 Tripoli and UCRO President, I set a goal to gain my Level 2 certification to gain a deeper knowledge of high powered rocketry as well as avionics development and aerospace community alongside taking the Level 2 test for certification.",
         "Using a 4 in diamater on a J-800 motor, the Open Rocket simulation is predicted for the rocket to achieve an apogee of 4,900ft with a max velocity of over 1,000 ft/s. The entire rocket except for the fins are made of re-enforced cardboard with a 3D printed custom avionics bay.",
-        "Currently looking to launch at the beginning of December--and have had many trials and tribulations along the way! After achieving my Jr Level 1 (now just Level 1) back in the fall of 2021, there was quite a bit I needed to re-learn about development of a new rocket with an unfamiliar matieral. Unlike my time previously working on our Harty Darty Rocket (go read it!!), my avionics bay this time was completely on my own and luckily was loaned components from the club to use. Although I have previously worked on physical impelemntation with a breadboard and understanding the fundamentals of wiring, this proved to be still a skill I want to work harder at with my lack of understanding and efficency. In addition, developing a electronics bay using Fusion 360 was entirely new and as I am sure Landry could atest, I am quite poor at. Half of the journey is learning what you don't know and this was a beautiful example of new skills that I want to improve on."
+        "Currently looking to launch at the beginning of December--and have had many trials and tribulations along the way! After achieving my Jr Level 1 (now just Level 1) back in the fall of 2021, there was quite a bit I needed to re-learn about development of a new rocket with an unfamiliar matieral. Unlike my time previously working on our Harty Darty Rocket (go read it!!), my avionics bay this time was completely on my own and luckily was loaned components from the club to use. Although I have previously worked on physical impelemntation with a breadboard and understanding the fundamentals of wiring, this proved to be still a skill I want to work harder at with my lack of understanding and efficency. In addition, developing a electronics bay using Fusion 360 was entirely new and as I am sure Landry could atest, I am quite poor at. Half of the journey is learning what you don't know and this was a beautiful example of new skills that I want to improve on. This flight isn’t just a test. It’s a celebration of everything I’ve learned so far, and a launchpad for what comes next. Level 3 may be on the horizon, but right now, it’s all about the thrill of the high altitude, craziness of a launch day, and a quite a bit of adrenaline."
       ],
       bullets: [
         "Developing stable rockets in Open Rocket",
@@ -77,7 +92,7 @@
         "Grasping a larger understanding of better saftey protocols"
       ],
       thumb: img2c,
-      images: [img2d, img2a, img2b, img2c],
+      images: [img2d, img2a, img2b, img2c, img2e],
     },
 
     {
@@ -89,21 +104,56 @@
       tech: ["Svelte", "Tailwind", "NPM Packages", "Git Pages"],
       preview: "A comprehensive website to showcase projects, full resume, and humility of programming",
       content: [
-        "A bilingual portfolio site to have a more indepth area to showcase and explain my current projects! Goal was to make an interactive website using Svelte to integrate a resume as well as characteristics of myself into one website.",
-        "Focuses on responsive layout, Japanese and English content, and a small, fast bundle. "
+        "This site is my personal portfolio — a space where design meets engineering. One of my greatest life-long passions outside of engineering that plays a major role in my life is my time spent in the Japanese language and wanted a place to showcase and use these skills! Developing a bilingual portfolio site to have a more indepth area to showcase and explain my current projects seemd perfect! Goal was to make an interactive website using Svelte to integrate a resume as well as characteristics of myself into one website.",
+        "I focused a lot on a responsive layout, both the Japanese and English content, and a small, fast bundle. This website is more than a portfolio--it’s a living notebook of experiments, iterations, and milestones. It reflects how I approach design and development: methodical, imaginative, and always evolving! "
       ],
       bullets: [
         "Created website from scratch using Svelte and Vite",
         "Implemented a projects feed with thumbnails and focused views",
         "Built a language toggle button with persisted preference.",
-        "Learned more about embedding of media: images, video, and code"
-      ],
-      links: [
-        { label: "This website!", href: "https://your-site.example", external: true }
+        "Learned more about embedding of media: images, video, and code",
+        "Truly grasping a better understanding of user-usability and creative elements",
+        "Iterative refinement of testing, debugging, and polishing small details until both design and code feel seamless"
       ],
       thumb: thumb3,
       images: [img3a]
     },
+
+    {
+      id: 4,
+      title: "User Interfaces",
+      role: "Full Stack Developer",
+      date: "Sept 2025 – December",
+      tags: ["Web Development", "Svelte", "Design"],
+      tech: ["Svelte", "Tailwind", "NPM Packages", "Git Pages"],
+      preview: "A comprehensive website to showcase projects, full resume, and humility of programming",
+      content: [
+        "This site is my personal portfolio — a space where design meets engineering. One of my greatest life-long passions outside of engineering that plays a major role in my life is my time spent in the Japanese language and wanted a place to showcase and use these skills! Developing a bilingual portfolio site to have a more indepth area to showcase and explain my current projects seemd perfect! Goal was to make an interactive website using Svelte to integrate a resume as well as characteristics of myself into one website.",
+        "I focused a lot on a responsive layout, both the Japanese and English content, and a small, fast bundle. This website is more than a portfolio--it’s a living notebook of experiments, iterations, and milestones. It reflects how I approach design and development: methodical, imaginative, and always evolving! "
+      ],
+      bullets: [
+        "Created website from scratch using Svelte and Vite",
+        "Implemented a projects feed with thumbnails and focused views",
+        "Built a language toggle button with persisted preference.",
+        "Learned more about embedding of media: images, video, and code",
+        "Truly grasping a better understanding of user-usability and creative elements",
+        "Iterative refinement of testing, debugging, and polishing small details until both design and code feel seamless"
+      ],
+      links: [
+        { label: "Chopin Chronicle Deployment", href: "https://chopinchronicle.netlify.app/", external: true },
+        { label: "Chopin Chronicle GitHub Repo", href: "https://github.com/raniamaaraba/chopinChronicle", external: true},
+        { label: "Mr Wardobe Deployment ", href: "https://mrwardrobecloset.netlify.app//", external: true },
+        { label: "Mr Wardrobe GitHub Repo", href: "https://github.com/raniamaaraba/MrWardrobe", external: true},
+        { label: "Bearcat Landing Re-Design Deployment", href: "https://bearcatlanding.netlify.app/", external: true },
+        { label: "Bearcat Landing GitHub Repo", href: "https://github.com/raniamaaraba/BearcatLanding", external: true},
+        
+
+      ], 
+      thumb: thumb4,
+      images: [img4b, img4a, img4c, img4d, img4e, img4f, img4h, img4g]
+    },
+
+
 
   ];
 
